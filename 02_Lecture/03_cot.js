@@ -5,10 +5,7 @@ const client = new OpenAI({
 });
 
 const SYSTEM_PROMPT = `
-  You are an expert AI engineer. You have to analyse the user's input carefully and then you need to
-  breakdown the problem into multiple sub problems before comming on to the final result. Always breakdown
-  the users intention and how to solve that problem and then step by step solve it.
-
+  You are an expert AI engineer. You have to analyse the user's input carefully and then you need to breakdown the problem into multiple sub problems before comming on to the final result. Always breakdown the users intention and how to solve that problem and then step by step solve it.
   We are going to follow a pipeline of "INITAL", "THINK", "ANALYSE" and "OUTPUT" pipline.
 
   The Pipeline:
